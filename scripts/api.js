@@ -7,7 +7,8 @@ export async function fetchPopularMovies() {
         console.log('영화 정보:', data.results);
         return data.results;
     } catch (err) {
-        console.error('실패', err);
+        alert('인기 영화 정보 로딩에 실패하였습니다');
+        console.error('영화 정보 로딩 실패', err);
     }
 }
 
@@ -18,6 +19,7 @@ export async function fetchSearchResults(query) {
         console.log('검색 정보:', data.results);
         return data.results;
     } catch (err) {
+        alert('검색 결과를 불러오는 것에 실패하였습니다');
         console.error('검색 실패', err);
     }
 }
@@ -28,6 +30,7 @@ export async function fetchMovieDetail(id) {
         const data = await res.json();
         return data;
     } catch (err) {
-        console.error('상세 정보 실패', err);
+        alert('상세 정보 불러오기 실패하였습니다');
+        console.error('상세 정보 불러오기 실패', err);
     }
 }
