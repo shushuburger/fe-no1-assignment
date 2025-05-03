@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShuBox</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h1>ShuBox</h1>
+            <div class="links">
+                <a href="#" id="homeLink">홈</a>
+                <a href="#" id="bookmarkLink">찜리스트</a>
+            </div>
+            <form id="searchForm">
+                <input id="searchInput" type="search" placeholder="영화 이름 입력" />
+                <button id="searchBtn" type="submit">검색</button>
+            </form>
+        </div>
+    </header>
+
+    <div id="movieList"></div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modalContent">
+            <span class="closeBtn" id="closeModal">X</span>
+            <h2 id="modalTitle">상세 정보</h2>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/config.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
