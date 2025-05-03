@@ -33,3 +33,41 @@
 
 **Lv2. async/await로 API 호출 리팩터링**
 - async/await 문법을 사용하여 진행행해보았습니다.
+
+## 동작 화면
+1) 시작 화면
+- 인기 영화가 자동으로 렌더링됩니다.
+- 영화 정보를 console.log로 출력하도록 해두었습니다.
+![image](https://github.com/user-attachments/assets/c3526b68-72c1-42c7-8faf-448ff3214fad)
+![image](https://github.com/user-attachments/assets/f790e9cc-8b94-416a-b2c6-70d7d6901265)
+
+2) 검색 화면
+- 검색 결과에 해당하는 영화가 자동으로 렌더링됩니다.
+- 영화 정보를 console.log로 출력하도록 해두었습니다.
+- 엔터와 버튼 클릭을 통해 검색이 가능합니다.
+![image](https://github.com/user-attachments/assets/46cc2694-22b8-47c8-b864-3075902a6b34)
+
+3) 상세정보 화면
+- "상세정보" 버튼을 클릭하면 모듈이 열립니다.
+- 영화에 대한 상세 정보를 표시합니다.
+- 'x' 아이콘을 통해 뒤로 갈 수 있습니다.
+![image](https://github.com/user-attachments/assets/aec92420-8d02-49c6-b811-e3c1d2f0714d)
+
+4) 북마크 추가
+- "북마크" 버튼을 누르면 alert이 뜨면서 localStorage에 저장됩니다.
+- 이미 북마크에 등록되어 있을 경우 "이미 등록되었다"라는 알림이 뜹니다.
+![image](https://github.com/user-attachments/assets/8e015062-1a89-4df7-a8f7-fd06a6a73027)
+![image](https://github.com/user-attachments/assets/bea4735d-a392-430e-974b-d8d1784076ed)
+
+5) 북마크 화면
+- "찜리스트" 버튼을 누르면 localStorage에 저장되어 있는 영화들이 카드로 렌더링됩니다.
+![image](https://github.com/user-attachments/assets/92d32ccd-b660-49f5-8eb1-f9a945ce97b8)
+
+6) 북마크 제거
+- "북마크 삭제" 버튼을 누르면 화면과 localStorage 둘 다에서 영화에 대한 정보가 사라집니다.
+![image](https://github.com/user-attachments/assets/341b0308-2237-48b1-80da-7d1d3ed71805)
+
+7) 홈으로 돌아가기
+- "홈" 버튼을 누르면 제일 처음 화면인 인기 영화 화면으로 돌아가며 검색창에 입력되어 있던 글자도 사라집니다.
+![image](https://github.com/user-attachments/assets/c68ae778-4f2d-4d32-ba8a-ee1bdb1c0bba)
+
