@@ -5,7 +5,7 @@
 **1. TMDB API 연동**
 - TMDB API에서 데이터를 fetch API로 가져오고, API 키를 통해 데이터 요청을 처리한 다음 데이터를 받아와서 콘솔에서 출력해 확인하였습니다.
 - API 키를 config.js 파일을 통해 별도로 적절히 보관하였으며, API 호출 시 정확한 경로와 파라미터를 사용하였습니다.
-(config.js는 key가 들어있기에 git에 업로드하지 않았습니다.)
+(config.js는 key가 들어있기에 git에 업로드하지 않았습니다. config.js에는 API_KEY: '제가 발급받은 개인 api' 와 BASE_URL: 'https://api.themoviedb.org/3'가 들어있습니다.)
 
 **2. 영화 카드 리스트 UI 구현**
 - 영화 포스터, 제목, 평점, 요약 등의 정보를 포함한 영화 카드 리스트 UI를 HTML과 CSS로 구현하였습니다.
